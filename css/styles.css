@@ -2,7 +2,7 @@
 a{
     color: #11999e;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
+    margin: 0.625rem 1.25rem;
     text-decoration: none;
 }
 a:hover{
@@ -20,7 +20,7 @@ h1{
     margin-block-end: 0;
     color: #66BFBF;
     /* display: inline-block; */
-   margin: 0px auto 0px auto;
+   margin: 0rem auto 0rem auto;
    font-family: 'Sacramento', cursive;
    font-size: 4rem;
    line-height: 2.5rem;
@@ -30,7 +30,7 @@ h2{
     font-size: 2rem;
     color: #66bfbf;
     font-weight: normal;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -41,47 +41,55 @@ hr{
     border: dotted #eaf6f6 6px;
     width: 5%;
     border-bottom: none;
-    border-radius: 10px;
-    margin: 100px auto;
+    border-radius: 0.625rem;
+    margin: 6.25rem auto;
 }
 p{
     line-height: 2;
 }
-.contact-message{
-    width: 50%;
-    margin: 40px auto 60px;
-}
-.top{
-    background-color: #EAF6F6;
-    position: relative;
-    padding-top: 100px;
-
-}
-.middle-container{
-   margin: 100px 0;
+.bottom-cloud{
+    height: 3rem;
+    width: 9.375rem;
+    position: absolute;
+   left: 15.625rem;
+   bottom: 18.75rem;
 }
 .bottom-container{
     background-color: #66BFBF;
-    padding: 50px 0 20px;
+    padding: 3.125rem 0 1.25rem;
 }
-.pro{
-    text-decoration: underline;
+.chilli-image{
+    width: 30%;
+    float: right;
+    margin:0 0 0 1.56rem;
+}
+.code-image{
+    width: 25%;
+    float: left;
+    margin: 0.625rem 1.7rem 0 0;
+}
+.contact-me{
+    margin-bottom: 3.125rem;
+  }
+  
+.contact-message{
+    width: 50%;
+    margin: 2.5rem auto 3.75rem;
 }
 .intro{
     width: 28%;
     margin: auto;
    
 }
-.bottom-cloud{
-    position: absolute;
-   left: 250px;
-   bottom: 300px;
+.middle-container{
+    margin: 6.25rem 0;
 }
-.top-cloud{
-    position:absolute;
-    right: 300px;
-    top: 40px;
-    
+.mountain{
+    height:22.3125rem ;
+    width: 37.375rem;
+}
+.pro{
+    text-decoration: underline;
 }
 .programmer{
     font-size: 1.5rem;
@@ -89,19 +97,23 @@ p{
 .skill-row{
     width: 50%;
     /* display: inline-block; */
-    margin: 75px auto ;
+    margin: 4.69rem auto ;
     text-align: left;
     line-height: 1.5;
 }
-.chilli-image{
-    width: 30%;
-    float: right;
-    margin:25px 0 0 25px;
+.top-cloud{
+    height: 3rem;
+    width: 9.375rem;
+    position:absolute;
+    right: 18.75rem;
+    top: 2.5rem;
+    
 }
-.code-image{
-    width: 25%;
-    float: left;
-    margin: 25px 25px 0 0;
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 6.25rem;
+
 }
 #ankit{
     color: #EAF6F6;
@@ -122,7 +134,7 @@ p{
         color: #ffffff;
         font-size: 20px;
         background: #3498db;
-        padding: 10px 20px 10px 20px;
+        padding: 0.625rem 1.25rem 0.625rem 1.25rem;
         text-decoration: none;
       }
       
@@ -134,9 +146,6 @@ p{
         background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
         background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
         text-decoration: none;
-      }
-      .contact-me{
-        margin-bottom: 50px;
       }
       
 
